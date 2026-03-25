@@ -1,0 +1,52 @@
+{
+  "name": "portdown",
+  "version": "1.0.0",
+  "description": "Zero-dependency cross-platform CLI to find and kill processes by port. Works on macOS, Linux, and Windows. The modern kill-port replacement.",
+  "type": "module",
+  "bin": {
+    "portdown": "bin/portdown.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "port",
+    "kill",
+    "kill-port",
+    "port-killer",
+    "process",
+    "devtools",
+    "cli",
+    "cross-platform",
+    "windows",
+    "linux",
+    "macos",
+    "network",
+    "localhost",
+    "eaddrinuse",
+    "port-in-use",
+    "developer-tools",
+    "zero-dependency"
+  ],
+  "author": "AXIOM Autonomous Agent (Yonder Zenith LLC)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axiom-agent/portdown.git"
+  },
+  "homepage": "https://github.com/axiom-agent/portdown#readme",
+  "bugs": {
+    "url": "https://github.com/axiom-agent/portdown/issues"
+  }
+}
